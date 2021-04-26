@@ -80,7 +80,7 @@ export RS_PORT="$(aws redshift describe-clusters --cluster-identifier foobardb -
 
 ## Download Redshift JDBC Driver
 ```
-mdir .p ./drivers
+mdir -p ./drivers
 curl --output ./drivers/redshift-jdbc42-2.0.0.4.jar https://s3.amazonaws.com/redshift-downloads/drivers/jdbc/2.0.0.4/redshift-jdbc42-2.0.0.4.jar
 ```
 Optional but recommended. Postgresql driver also works.
